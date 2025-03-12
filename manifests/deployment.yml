@@ -20,11 +20,11 @@ spec:
         api: downward
         usage: global
         env: dev
-        version: 7.8.x
+        version: 7.8.x 
     spec:
       containers:
         - name: app
-          image: ramcloud88/bb-app-flux-demo:7.8.0
+          image: ramcloud88/bb-app-flux-demo:7.8.0 # {"$imagepolicy": "flux-system:8-demo-image"}
           imagePullPolicy: Always
           resources:
             requests:
